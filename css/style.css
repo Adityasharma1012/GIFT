@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5 {
 
 .image-card img {
   width: 100%;
-  height: auto; /* Maintains aspect ratio perfectly */
+  height: auto; object-fit: contain;
   display: block;
   border-radius: 12px;
 }
